@@ -1,0 +1,28 @@
+{
+  "name": "timermodule",
+  "version": "1.0.0",
+  "description": "module for timing javascript functions",
+  "main": "funcTimer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deweywatkins77/TimerModule.git"
+  },
+  "keywords": [
+    "javascript",
+    "timer",
+    "\"function",
+    "timer\""
+  ],
+  "author": "Dewey Watkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deweywatkins77/TimerModule/issues"
+  },
+  "homepage": "https://github.com/deweywatkins77/TimerModule#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
