@@ -44,7 +44,6 @@ function funcTimer(...args){
     args.splice(0,timedObj.funcArray.length)
     if (typeof args[0] == "number") timedObj.iterations = args.shift()
     
-
     //Return error if no functions were first argument or iteration integer was not found
     if (timedObj.funcArray.length == 0 || !timedObj.iterations || timedObj.iterations < 1 ){
         data.error="No function or iteration number detected. Make sure at least one function is first in the arguments, and an interger is the argument right after the last function."
@@ -57,7 +56,6 @@ function funcTimer(...args){
         funcTimes[i] = results[0]
         funcResults[i] = results[1]
     }
-
 
     //format data to return each function(s) average time, results and find fastest function
     fastestFunc = funcTimes[0]
