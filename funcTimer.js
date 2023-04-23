@@ -51,12 +51,9 @@ function funcTimer(...args){
         return data
     } 
 
-    //assign rest of params so they can be passed to the timer avgTime function
-    timedObj.params = args
-
     // loop through functions and get average times for number of times equal to the iteration integer
     for (let i=0; i<timedObj.funcArray.length; i++){
-        let results = avgTime(timedObj.funcArray[i],timedObj.iterations,timedObj.params)
+        let results = avgTime(timedObj.funcArray[i],timedObj.iterations,args)
         funcTimes[i] = results[0]
         funcResults[i] = results[1]
     }
